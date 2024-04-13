@@ -1,0 +1,22 @@
+.review_list {
+	display: flex;
+	justify-content: center;
+	column-gap: 34px;
+	padding: 0;
+	margin-bottom: 243px;
+}
+
+.review_item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+@media (max-width: 876px) {
+	.review_list {
+		flex-direction: column;
+		row-gap: 16px;
+		margin-bottom: 66px;
+	}
+}

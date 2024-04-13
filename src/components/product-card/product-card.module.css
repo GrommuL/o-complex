@@ -1,0 +1,76 @@
+.card {
+	max-width: 301px;
+	max-height: 812px;
+	height: 100%;
+	width: 100%;
+	border-radius: var(--border-radius);
+	background: var(--background-secondary-color);
+	color: var(--background-primary-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 10px;
+	padding: 9px 10px;
+}
+
+.card_image {
+	min-height: 360px;
+	border-radius: var(--border-radius);
+}
+
+.card_title {
+	max-width: 297px;
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 24px;
+	word-wrap: break-word;
+}
+
+.card_description {
+	max-width: 297px;
+	word-wrap: break-word;
+	overflow-y: scroll;
+}
+
+.card_actions {
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+}
+
+.card_quantity {
+	width: 128px;
+	height: 68px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--background-primary-color);
+	color: var(--text-light-color);
+	border-radius: var(--border-radius);
+}
+
+.card_description::-webkit-scrollbar {
+	display: none;
+}
+
+.card_description::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.card_description::-webkit-scrollbar-thumb {
+	background-color: transparent;
+}
+
+.card_price {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 44px;
+}
+
+.card_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: auto;
+	row-gap: 33px;
+}

@@ -1,0 +1,21 @@
+.card {
+	max-width: 468px;
+	width: 100%;
+	height: 100%;
+	background-color: var(--background-secondary-color);
+	border-radius: var(--border-radius);
+	color: var(--text-dark-color);
+	padding: 20px 26px 28px 27px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.card > * {
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.card > h1 {
+	text-transform: capitalize;
+}
