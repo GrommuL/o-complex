@@ -44,7 +44,7 @@
 Клонирование репозитория:
 
 ```bash
-  git clone https://github.com/GrommuL/dashboard-v2.git
+  git clone https://github.com/GrommuL/o-complex.git
 ```
 
 Установка зависимостей:
